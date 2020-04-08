@@ -1,0 +1,11 @@
+//PFR = Parsing File/Flow Rules/Relationships
+@@definitions {
+#define type int {
+@each: allowed=[,1234567890]
+  & @1 allowed+=[-]
+}
+until(EOF) {
+  case
+}
+
+}
