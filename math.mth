@@ -1,0 +1,30 @@
+to find the higher of two numbers,
+
+programming version:
+```java
+double returnHigher(double A, double B) {
+  if (A >= B) {
+    double C = A;
+  }
+  else {
+  double C = B;
+  }
+  return C;
+}
+```/java
+
+f(a,b) = C
+
+example:
+a = 5, b = 7;
+We want C to equal whichever one is higher
+a person can tell that b is higher so c should equal b
+
+5-7=-2
+5--2=7
+
+7-5=2
+7-2=5
+
+A-B
+  
